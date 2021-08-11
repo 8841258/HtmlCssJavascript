@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html charset=utf-8" />
+	<title> </title>
+	<link href="style.css" rel="stylesheet" type="text/css">	
+	<script src="./jquery-1.11.1.js"></script>
+	<script>
+	document.title = "학번-홍길동-01";
+	
+	//javascript 함수 사용 :  getElementById() 메서드, parseInt() 메서드, value 속성, innerHTML 속성
+	window.onload = function(){
+		document.getElementById("btn1").onclick = function() {
+			//to do
+
+
+		};
+	};
+	</script> 
+</head>
+<body>
+<div id="wrapper">
+	<header>문제 01 : HTML 속성 수정하기(javascript)</header>
+	
+	<section>
+		<article> 
+			<form>
+				<input type="text" name="num1" id="num1" value="10" size="5"/>+
+				<input type="text" name="num2" id="num2" value="15" size="5"/>=
+				<input type="text" name="num3" id="num3" size="5"/>
+				<input type="button" id="btn1" value="정답확인"/>
+			</form>
+		</article>
+		
+		<div id="result">result:</div>
+	</section>
+</div>
+</body>
+</html>
